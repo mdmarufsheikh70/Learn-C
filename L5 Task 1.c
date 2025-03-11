@@ -9,7 +9,7 @@ int main()
         for(int j=0;j<=i;j++)
         {
 
-            printf("%d",array [j]);
+            printf("%d", array [j]);
             if(j!=i)
             {
                 printf(",");
