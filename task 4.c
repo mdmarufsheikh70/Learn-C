@@ -11,7 +11,7 @@ int main()
  else if(b>a)
  {
  int ss=(b-a);
- printf("%d",ss);
+ printf("%d", ss);
  }
  else
  {
