@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main() 
-{
+int main(){
  int a;
  scanf("%d",&a);
  int h = a / 3600;
