@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() 
 {
- int a,b;
- scanf("%d%d",&a,&b); 
- if (a>b)
+ int a, b;
+ scanf("%d %d", &a, &b); 
+ if (a > b)
  {
- int s=(a-b);
- printf("%d",s);
+ int s = (a - b);
+ printf("%d", s);
  }
  else if(b>a)
  {
