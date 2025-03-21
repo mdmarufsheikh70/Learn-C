@@ -8,7 +8,7 @@ int main()
  int s = (a - b);
  printf("%d", s);
  }
- else if(b>a)
+ else if(b > a)
  {
  int ss=(b-a);
  printf("%d", ss);
