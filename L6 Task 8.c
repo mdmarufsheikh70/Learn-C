@@ -3,8 +3,8 @@ int main()
 {
     char N[50];
     gets(N);
-    int len=0;
-    while(N[len]!='\0')
+    int len = 0;
+    while(N[len]! = '\0')
     {
         len++;
     }
