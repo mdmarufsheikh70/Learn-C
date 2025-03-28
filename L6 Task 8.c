@@ -8,7 +8,7 @@ int main()
     {
         len++;
     }
-    for(int i=1;i<len;i=i+2)
+    for(int i = 1;i<len;i = i+2)
     {
         printf("%c",N[i]-32);
     }
