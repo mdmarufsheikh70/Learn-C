@@ -8,7 +8,7 @@ int main()
 
     for(int i = l,j = 0;s[i]! = '\0'; i--)
     {
-       sn[j]=s[i];
+       sn[j] = s[i];
        j++;
     }
     printf("%s",sn);
