@@ -11,7 +11,7 @@ int main()
        sn[j] = s[i];
        j++;
     }
-    printf("%s",sn);
+    printf("%s", sn);
     return 0;
 }
 
