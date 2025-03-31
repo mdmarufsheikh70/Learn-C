@@ -4,9 +4,9 @@ int main()
     char s[100],sn[100];
     gets(s);
     int l;
-    l= strlen(s)-1;
+    l = strlen(s)-1;
 
-    for(int i=l,j=0;s[i]!='\0';i--)
+    for(int i = l,j = 0;s[i]! = '\0'; i--)
     {
        sn[j]=s[i];
        j++;
