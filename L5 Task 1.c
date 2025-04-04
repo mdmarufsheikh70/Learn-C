@@ -2,15 +2,15 @@
 int main()
 {
     int array[5];
-    for(int i=0; i<5; i++)
+    for(int i = 0; i < 5; i++)
     {
-        scanf("%d",&array[i]);
+        scanf("%d", &array[i]);
         printf("[");
-        for(int j=0;j<=i;j++)
+        for(int j = 0; j < = i; j++)
         {
 
             printf("%d", array [j]);
-            if(j!=i)
+            if(j! = i)
             {
                 printf(",");
             }
