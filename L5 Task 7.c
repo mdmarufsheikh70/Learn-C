@@ -2,23 +2,23 @@
 int main()
 {
 
-    int arr1[]={1,4,7,5};
-    int arr2[]={6,1,3,9};
+    int arr1[] = {1,4,7,5};
+    int arr2[] = {6,1,3,9};
 
-    int s1=sizeof(arr1)/sizeof(arr1[0]);
-    int s2=sizeof(arr2)/sizeof(arr2[0]);
+    int s1 = sizeof(arr1)/sizeof(arr1[0]);
+    int s2 = sizeof(arr2)/sizeof(arr2[0]);
 
-    arr1[s1-1]=arr2[0];
+    arr1[s1-1] = arr2[0];
 
     printf("[");
 
-    for(int i=0;i<s1;i++)
+    for(int i = 0; i < s1;i++)
 
         {
 
-            printf("%d",arr1[i]);
+            printf("%d", arr1[i]);
 
-            if(i!=s1-1)
+            if(i! = s1-1)
 
              {
                 printf(",");
